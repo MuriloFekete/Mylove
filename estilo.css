@@ -18,8 +18,8 @@ body{
 }
 
 .carta {
-    width: 38vw;
-    height: 80vh;
+    width: 500px;
+    height: 500px;
     background: url(img/background2.jpg);
     text-align: center;
     align-items: center;
@@ -43,4 +43,24 @@ body{
 footer {
     text-align: center;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 670px) { /* Tablet */
+    .carta {
+        width: 80%;
+        height: 80vh;
+        
+        background: url(img/background2.jpg);
+        text-align: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .carta > .letter {
+        font-size: 1.1em;
+        line-height: 22px;
+        text-align: justify;
+        padding: 5px;
+        color: black;
+    }
 }
