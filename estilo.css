@@ -14,11 +14,12 @@
 body{
     background:url(img/background1.jpg) repeat;
     background-position: right center;
+    width: 100%;
 }
 
 .carta {
-    width: 500px;
-    height: 500px;
+    width: 38vw;
+    height: 80vh;
     background: url(img/background2.jpg);
     text-align: center;
     align-items: center;
