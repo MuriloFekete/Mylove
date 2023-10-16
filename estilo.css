@@ -47,7 +47,7 @@ footer {
 
 @media screen and (min-width: 400px) and (max-width: 670px) { /* Tablet */
     .carta {
-        width: 80vw;
+        width: 95vw;
         height: 80vh;
         
         background: url(img/background2.jpg);
