@@ -21,7 +21,9 @@ body{
     width: 500px;
     height: 500px;
     background: url(img/background2.jpg);
-    margin-top: 20px;
+    margin: auto;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .ptitle {
@@ -39,6 +41,8 @@ body{
 }
 
 footer {
+    text-align: center;
+    margin: auto;
     margin-top: 10px;
 }
 
