@@ -14,22 +14,20 @@
 body{
     background:url(img/background1.jpg) repeat;
     background-position: right center;
-    width: 100%;
+    overflow-y: hidden;
 }
 
 .carta {
     width: 500px;
     height: 500px;
     background: url(img/background2.jpg);
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .ptitle {
     font-family: angel;
     font-size: 1.2em;
+    text-align: center;
 }
 
 .carta > .letter {
@@ -41,26 +39,6 @@ body{
 }
 
 footer {
-    text-align: center;
     margin-top: 10px;
 }
 
-@media screen and (min-width: 400px) and (max-width: 670px) { /* Tablet */
-    .carta {
-        width: 95vw;
-        height: 80vh;
-        
-        background: url(img/background2.jpg);
-        text-align: center;
-        align-items: center;
-        margin-top: 20px;
-    }
-
-    .carta > .letter {
-        font-size: 1.1em;
-        line-height: 22px;
-        text-align: justify;
-        padding: 5px;
-        color: black;
-    }
-}
